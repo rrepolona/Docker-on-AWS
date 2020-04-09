@@ -11,7 +11,7 @@ node {
         /* This builds the actual image; synonymous to
          * docker build on the command line */
 
-        app = docker.build("rrepolona/Docker-on-AWS")
+        app = docker.build("rrepolona/docker-on-aws")
     }
 
     stage('Test image') {
