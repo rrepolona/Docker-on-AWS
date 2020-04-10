@@ -19,7 +19,7 @@ node {
          * For this example, we're using a Volkswagen-type approach ;-) */
 
         app.inside {
-            sh '/var/lib/jenkins/script/smoke_test.py'
+            sh 'echo "Mukang Ayus!"'	
         }
     }
 
